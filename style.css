@@ -1,0 +1,64 @@
+html,body{
+    padding: 0%;
+    margin: 0%;
+}
+.head-text{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1em;
+    height: 60px;
+}
+.container{
+    padding-top: .5%;
+}
+.footer-row{
+    align-self: center;
+    background: #46D7AC;
+    bottom: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: 7%;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    padding-bottom: auto;
+}
+.border-right {
+    border-right: 3px solid #46D7AC;
+}
+
+.skills>* {
+    padding-right: 8px;
+}
+
+.enrolled-students {
+    height: 60vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    scrollbar-width: thin;
+}
+.student-info {
+    padding: 8px;
+}
+
+#thead-style {
+    background: #A7C941;
+    color: white
+}
+
+/* for fade-in animation */
+.tr-animation {
+    animation: fadein 1s ease-in;
+    background-color: blue;
+    margin: 5px;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
