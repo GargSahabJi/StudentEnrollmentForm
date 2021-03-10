@@ -49,7 +49,7 @@ html,body{
 
 /* for fade-in animation */
 .tr-animation {
-    animation: fadein 1s ease-in;
+    animation: fadein 5s ease-in;
     background-color: blue;
     margin: 5px;
 }
@@ -61,4 +61,10 @@ html,body{
     to {
         opacity: 1;
     }
+}
+
+.img-animation{
+    animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards
 }

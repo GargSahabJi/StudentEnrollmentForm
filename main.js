@@ -40,7 +40,7 @@ function addStudent() {
                 <div class="skills">${skillsValue}</div>
             </td>
             <td class='student-info'>
-                <div><img src="${image.value}" alt="student_image" height="100" width="120"/></div>
+                <div><img src="${image.value}" alt="student_image" height="100" width="120" /></div>
             </td>`;
     tr.innerHTML = student;
     tr.style = `background: ${tableRowCounter % 2 === 0 ? '#eeffcc' : '#fafafa'}`;
